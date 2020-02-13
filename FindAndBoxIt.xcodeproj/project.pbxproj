@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95070F1123F5EEF1001B0D48 /* FindAndBoxIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindAndBoxIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95070F1123F5EEF1001B0D48 /* Find&Box.It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find&Box.It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95070F1423F5EEF1001B0D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95070F1623F5EEF1001B0D48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		95070F1823F5EEF1001B0D48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		95070F1223F5EEF1001B0D48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95070F1123F5EEF1001B0D48 /* FindAndBoxIt.app */,
+				95070F1123F5EEF1001B0D48 /* Find&Box.It.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 			);
 			name = FindAndBoxIt;
 			productName = FindAndBoxIt;
-			productReference = 95070F1123F5EEF1001B0D48 /* FindAndBoxIt.app */;
+			productReference = 95070F1123F5EEF1001B0D48 /* Find&Box.It.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -294,9 +294,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Dennis.FindAndBoxIt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Find&Box.It";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,9 +314,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Dennis.FindAndBoxIt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Find&Box.It";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
