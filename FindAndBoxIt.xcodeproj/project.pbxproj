@@ -15,6 +15,7 @@
 		95070F2123F5EEF5001B0D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95070F1F23F5EEF5001B0D48 /* LaunchScreen.storyboard */; };
 		95183E0223FA94EA007F691D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95183E0123FA94EA007F691D /* LogoView.swift */; };
 		95183E0423FA9741007F691D /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95183E0323FA9741007F691D /* Shapes.swift */; };
+		95183E0623FA9903007F691D /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95183E0523FA9903007F691D /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		95070F2223F5EEF5001B0D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95183E0123FA94EA007F691D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		95183E0323FA9741007F691D /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		95183E0523FA9903007F691D /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				95070F1823F5EEF1001B0D48 /* ContentView.swift */,
 				95183E0123FA94EA007F691D /* LogoView.swift */,
 				95183E0323FA9741007F691D /* Shapes.swift */,
+				95183E0523FA9903007F691D /* Buttons.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				95070F1523F5EEF1001B0D48 /* AppDelegate.swift in Sources */,
 				95183E0223FA94EA007F691D /* LogoView.swift in Sources */,
 				95183E0423FA9741007F691D /* Shapes.swift in Sources */,
+				95183E0623FA9903007F691D /* Buttons.swift in Sources */,
 				95070F1723F5EEF1001B0D48 /* SceneDelegate.swift in Sources */,
 				95070F1923F5EEF1001B0D48 /* ContentView.swift in Sources */,
 			);
