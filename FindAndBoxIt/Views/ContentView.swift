@@ -11,7 +11,7 @@ import SwiftUI
 //Til at opbygge selve viewet
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!, it is working").foregroundColor(Color("MainColor"))
+        LogoView()
     }
 }
 
@@ -20,11 +20,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         
         Group {
-        ContentView().colorScheme(.light).previewDisplayName("iPhone 11 Light mode").previewDevice("iPhone 11")
-        ContentView().colorScheme(.dark).previewDisplayName("iPhone 11 Dark mode").previewDevice("iPhone 11")
-            
-            ContentView().previewLayout(.fixed(width: 300, height: 100))
-            
+            ContentView().colorScheme(.light).previewDisplayName("iPhone 11 Light mode").previewDevice("iPhone 11")
             
         }
         
