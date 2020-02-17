@@ -27,6 +27,15 @@ struct Buttons: View {
                     Text("Klik mig").foregroundColor(.white).font(.largeTitle)
                 }.shadow(radius: 10)
             }
+            
+            Button(action: {
+                //What to do
+                print("Logo button")
+            }) {
+                //Design
+                LogoView()
+            }.buttonStyle(PlainButtonStyle())
+            
         }
     }
 }

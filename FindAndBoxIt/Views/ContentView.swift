@@ -11,7 +11,13 @@ import SwiftUI
 //Til at opbygge selve viewet
 struct ContentView: View {
     var body: some View {
-        LogoView()
+        NavigationView {
+            NavigationLink(destination:GreyView()) {
+                LogoView()
+            }.buttonStyle(PlainButtonStyle())
+            .navigationBarTitle("Logo")
+            
+        }
     }
 }
 
