@@ -17,6 +17,8 @@
 		95183E0423FA9741007F691D /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95183E0323FA9741007F691D /* Shapes.swift */; };
 		95183E0623FA9903007F691D /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95183E0523FA9903007F691D /* Buttons.swift */; };
 		952735FF243CCDA900EC4EE3 /* Color+BrandColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735FE243CCDA900EC4EE3 /* Color+BrandColors.swift */; };
+		95273601243CCE7400EC4EE3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273600243CCE7400EC4EE3 /* LoginView.swift */; };
+		95273604243CCEAB00EC4EE3 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273603243CCEAB00EC4EE3 /* UserSession.swift */; };
 		95D1D2B023FA9BCE0096AAE2 /* GreyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1D2AF23FA9BCD0096AAE2 /* GreyView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		95183E0323FA9741007F691D /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		95183E0523FA9903007F691D /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		952735FE243CCDA900EC4EE3 /* Color+BrandColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+BrandColors.swift"; sourceTree = "<group>"; };
+		95273600243CCE7400EC4EE3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		95273603243CCEAB00EC4EE3 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		95D1D2AF23FA9BCD0096AAE2 /* GreyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +70,7 @@
 		95070F1323F5EEF1001B0D48 /* FindAndBoxIt */ = {
 			isa = PBXGroup;
 			children = (
+				95273602243CCE9E00EC4EE3 /* Models */,
 				952735FD243CCD8C00EC4EE3 /* Extenstions */,
 				95183E0023FA94B5007F691D /* Views */,
 				95070F1423F5EEF1001B0D48 /* AppDelegate.swift */,
@@ -94,6 +99,7 @@
 				95183E0323FA9741007F691D /* Shapes.swift */,
 				95183E0523FA9903007F691D /* Buttons.swift */,
 				95D1D2AF23FA9BCD0096AAE2 /* GreyView.swift */,
+				95273600243CCE7400EC4EE3 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,6 +110,14 @@
 				952735FE243CCDA900EC4EE3 /* Color+BrandColors.swift */,
 			);
 			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		95273602243CCE9E00EC4EE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95273603243CCEAB00EC4EE3 /* UserSession.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				95070F1523F5EEF1001B0D48 /* AppDelegate.swift in Sources */,
+				95273604243CCEAB00EC4EE3 /* UserSession.swift in Sources */,
 				95183E0223FA94EA007F691D /* LogoView.swift in Sources */,
 				95183E0423FA9741007F691D /* Shapes.swift in Sources */,
+				95273601243CCE7400EC4EE3 /* LoginView.swift in Sources */,
 				95183E0623FA9903007F691D /* Buttons.swift in Sources */,
 				95070F1723F5EEF1001B0D48 /* SceneDelegate.swift in Sources */,
 				952735FF243CCDA900EC4EE3 /* Color+BrandColors.swift in Sources */,
