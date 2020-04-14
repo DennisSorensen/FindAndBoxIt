@@ -19,6 +19,9 @@
 		952735FF243CCDA900EC4EE3 /* Color+BrandColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735FE243CCDA900EC4EE3 /* Color+BrandColors.swift */; };
 		95273601243CCE7400EC4EE3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273600243CCE7400EC4EE3 /* LoginView.swift */; };
 		95273604243CCEAB00EC4EE3 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95273603243CCEAB00EC4EE3 /* UserSession.swift */; };
+		9592BF8B2445DFB000F3ED20 /* NotLoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF8A2445DFB000F3ED20 /* NotLoggedInView.swift */; };
+		9592BF8D2445E2F600F3ED20 /* ChoosePickListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF8C2445E2F600F3ED20 /* ChoosePickListView.swift */; };
+		9592BF8F2445E4AA00F3ED20 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF8E2445E4AA00F3ED20 /* UserAuth.swift */; };
 		95D1D2B023FA9BCE0096AAE2 /* GreyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1D2AF23FA9BCD0096AAE2 /* GreyView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		952735FE243CCDA900EC4EE3 /* Color+BrandColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+BrandColors.swift"; sourceTree = "<group>"; };
 		95273600243CCE7400EC4EE3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		95273603243CCEAB00EC4EE3 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		9592BF8A2445DFB000F3ED20 /* NotLoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotLoggedInView.swift; sourceTree = "<group>"; };
+		9592BF8C2445E2F600F3ED20 /* ChoosePickListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePickListView.swift; sourceTree = "<group>"; };
+		9592BF8E2445E4AA00F3ED20 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
 		95D1D2AF23FA9BCD0096AAE2 /* GreyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +106,8 @@
 				95183E0523FA9903007F691D /* Buttons.swift */,
 				95D1D2AF23FA9BCD0096AAE2 /* GreyView.swift */,
 				95273600243CCE7400EC4EE3 /* LoginView.swift */,
+				9592BF8A2445DFB000F3ED20 /* NotLoggedInView.swift */,
+				9592BF8C2445E2F600F3ED20 /* ChoosePickListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				95273603243CCEAB00EC4EE3 /* UserSession.swift */,
+				9592BF8E2445E4AA00F3ED20 /* UserAuth.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,12 +202,15 @@
 			files = (
 				95070F1523F5EEF1001B0D48 /* AppDelegate.swift in Sources */,
 				95273604243CCEAB00EC4EE3 /* UserSession.swift in Sources */,
+				9592BF8D2445E2F600F3ED20 /* ChoosePickListView.swift in Sources */,
 				95183E0223FA94EA007F691D /* LogoView.swift in Sources */,
 				95183E0423FA9741007F691D /* Shapes.swift in Sources */,
 				95273601243CCE7400EC4EE3 /* LoginView.swift in Sources */,
+				9592BF8F2445E4AA00F3ED20 /* UserAuth.swift in Sources */,
 				95183E0623FA9903007F691D /* Buttons.swift in Sources */,
 				95070F1723F5EEF1001B0D48 /* SceneDelegate.swift in Sources */,
 				952735FF243CCDA900EC4EE3 /* Color+BrandColors.swift in Sources */,
+				9592BF8B2445DFB000F3ED20 /* NotLoggedInView.swift in Sources */,
 				95070F1923F5EEF1001B0D48 /* ContentView.swift in Sources */,
 				95D1D2B023FA9BCE0096AAE2 /* GreyView.swift in Sources */,
 			);
