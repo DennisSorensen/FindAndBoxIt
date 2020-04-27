@@ -12,13 +12,20 @@ struct ChoosePickListView: View {
     
     @EnvironmentObject var userSession : UserSession
     
+    let pickLists = PickList.demoData
+    
     var body: some View {
         VStack {
             if !userSession.isUserLoggedIn {
                 NotLoggedInView()
             }
             else {
-                Text("Hello")
+                List(pickLists) {pickList in
+                    ChoosePickListViewCell(pickList: pickList)
+                }
+//                List(1..<4) {tal in
+//                    Text("\(tal)")
+//                }
             }
             
             EmptyView()
@@ -27,7 +34,13 @@ struct ChoosePickListView: View {
 }
 
 struct ChoosePickListView_Previews: PreviewProvider {
+    
+    static let userSession = UserSession()
+    
     static var previews: some View {
-        ChoosePickListView()
+        
+        userSession.isUserLoggedIn = true
+        
+        return ChoosePickListView().environmentObject(userSession)
     }
 }

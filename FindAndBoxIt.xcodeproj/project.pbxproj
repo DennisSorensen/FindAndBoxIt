@@ -25,6 +25,7 @@
 		95D1D2B023FA9BCE0096AAE2 /* GreyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1D2AF23FA9BCD0096AAE2 /* GreyView.swift */; };
 		95E2FC412457092A00790E1C /* SalesOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC402457092A00790E1C /* SalesOrder.swift */; };
 		95E2FC432457095F00790E1C /* PickList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC422457095F00790E1C /* PickList.swift */; };
+		95E2FC4524570A3E00790E1C /* ChoosePickListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC4424570A3E00790E1C /* ChoosePickListViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		95D1D2AF23FA9BCD0096AAE2 /* GreyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyView.swift; sourceTree = "<group>"; };
 		95E2FC402457092A00790E1C /* SalesOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesOrder.swift; sourceTree = "<group>"; };
 		95E2FC422457095F00790E1C /* PickList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickList.swift; sourceTree = "<group>"; };
+		95E2FC4424570A3E00790E1C /* ChoosePickListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePickListViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				95273600243CCE7400EC4EE3 /* LoginView.swift */,
 				9592BF8A2445DFB000F3ED20 /* NotLoggedInView.swift */,
 				9592BF8C2445E2F600F3ED20 /* ChoosePickListView.swift */,
+				95E2FC4424570A3E00790E1C /* ChoosePickListViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				95183E0223FA94EA007F691D /* LogoView.swift in Sources */,
 				95183E0423FA9741007F691D /* Shapes.swift in Sources */,
 				95E2FC412457092A00790E1C /* SalesOrder.swift in Sources */,
+				95E2FC4524570A3E00790E1C /* ChoosePickListViewCell.swift in Sources */,
 				95273601243CCE7400EC4EE3 /* LoginView.swift in Sources */,
 				9592BF8F2445E4AA00F3ED20 /* UserAuth.swift in Sources */,
 				95183E0623FA9903007F691D /* Buttons.swift in Sources */,
