@@ -20,12 +20,7 @@ struct ChoosePickListView: View {
                 NotLoggedInView()
             }
             else {
-                List(pickLists) {pickList in
-                    ChoosePickListViewCell(pickList: pickList)
-                }
-//                List(1..<4) {tal in
-//                    Text("\(tal)")
-//                }
+                PickListView()
             }
             
             EmptyView()
